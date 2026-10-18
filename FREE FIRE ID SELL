@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FFX Market — Gaming Marketplace</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #080b12;
+    color: white;
+}
+
+header {
+    background: #0d111b;
+    border-bottom: 1px solid #202738;
+    padding: 18px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffb000;
+}
+
+nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: #ffb000;
+}
+
+.hero {
+    padding: 70px 6%;
+    text-align: center;
+    background:
+        radial-gradient(circle at center, #20283c, #080b12 65%);
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 12px;
+}
+
+.hero h1 span {
+    color: #ffb000;
+}
+
+.hero p {
+    color: #9da5b5;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: #101522;
+    border: 1px solid #242c3d;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 50px rgba(0,0,0,.35);
+}
+
+.account-image {
+    width: 100%;
+    display: block;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 30px;
+}
+
+.badge {
+    display
